@@ -1,0 +1,24 @@
+/**** tag selections ****/
+body {
+  background-color:cornsilk;
+}
+h1 {
+  color: rgb(102, 0, 128);
+}
+h2 {
+  color: rgb(102, 0, 128);
+}
+h3 {
+  color:brown;
+}
+
+/**** class selections ****/
+.usedot {
+  background-color: aqua;
+}
+
+
+/**** id selections ****/
+#usepound {
+  background-color: aqua;
+}
