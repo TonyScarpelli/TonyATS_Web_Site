@@ -1,8 +1,12 @@
 body {
   background-color: cornsilk;
+  font-family: "Arial";
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   color: rgb(102, 0, 128);
   font-weight: bold;
 }
@@ -15,7 +19,15 @@ h5 {
 /*===============================================================*/
 /* Navigation bar */
 #home-navbar {
-  margin: 5px 40px 0px 10px;  /* top right bottom left */
+  margin: 5px 10px 5px 10px; /* top right bottom left */
+}
+
+/* Navbar Brand: Navbar */
+.navbar-brand {
+  padding: 0;
+  margin: 0;
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 /* When hovering */
@@ -25,19 +37,58 @@ h5 {
 }
 
 /* Navbar links: Home, Skills, Hobbies, Contact */
-.navbar .navbar-nav .nav-link {
-  padding: 0.6em;
-  font-size: 1.6em;
+/*
+.navbar {
+  padding: 10px;
+  font-size: 3rem;
+  line-height: 1.5;
   font-weight: bold;
   color: rgb(102, 0, 128);
-  /*transition: all 0.5s;*/
+}
+*/
+
+/*
+.nav-link {
+  padding: 10px;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: rgb(102, 0, 128);
+}
+*/
+/*transition: all 0.5s;*/
+
+.navbar-nav {
+  padding: 0 60px 0 60; /* top right bottom left */
+  font-size: 1.6rem;
+  font-weight: bold;
 }
 
-/* Navbar Brand: Navbar */
-.navbar-brand {
-  padding: 0 0.6em;
-  font-size: 1.6em;
-  font-weight: bold;
+.navbar-item {
+  padding: 0 60px 0 60; /* top right bottom left */
+}
+
+/*===============================================================*/
+/* Unformatted Lists */
+ul {
+  margin-left: 50px;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  line-height: 50px;
+}
+
+ul li a {
+  display: block;
+  text-decoration: none;
+  font-family: Arial;
+  padding: 20px;
+}
+
+ul li a:hover {
+  color: red;
 }
 
 /*===============================================================*/
@@ -50,7 +101,7 @@ h5 {
 #education {
   border-top: 0px;
   height: 400px;
-  margin: 0px 40px 120px 35px ; /* top right bottom left */
+  margin: 0px 40px 120px 35px; /* top right bottom left */
 }
 
 /*===============================================================*/
@@ -61,7 +112,7 @@ h5 {
 }
 
 .skills-heading {
-  margin: 10px 30px 10px 30px ;   /* top right bottom left */
+  margin: 10px 30px 10px 30px; /* top right bottom left */
 }
 
 .row {
@@ -90,7 +141,8 @@ table {
   border: 1px solid #ddd;
 }
 
-th, td {
+th,
+td {
   text-align: left;
   padding: 5px;
 }
@@ -101,45 +153,20 @@ tr:nth-child(even) {
 }
 */
 
-
 #footer {
-  padding: 10px 30px 30px 0px ;   /* top right bottom left */
+  padding: 10px 30px 30px 0px; /* top right bottom left */
 }
 
 /*===============================================================*/
 /* Contact section */
 .contact {
-  margin: 10px 30px 10px 100px ;   /* top right bottom left */
+  margin: 10px 30px 10px 100px; /* top right bottom left */
 }
 
-input[type=submit] {
-  font-size : 20px; 
+input[type="submit"] {
+  font-size: 20px;
   font-weight: bold;
 }
-
-/*===============================================================*/
-/* Unformatted Lists */
-ul {
-  margin-left: 50px;
-}
-
-ul li {
-  list-style: none;
-  display: inline-block;
-  line-height: 50px;
-}
-
-ul li a {
-  display: block;
-  text-decoration: none;
-  font-family: Arial;
-  padding: 20px;
-}
-
-ul li a:hover {
-  color: red;
-}
-
 
 /*
 @media only screen and (min-width: 1028px) {
